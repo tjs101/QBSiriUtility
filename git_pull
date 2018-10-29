@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#  Script.sh
+#  QBFramework
+#
+#  Created by quentin on 2017/1/20.
+#  Copyright © 2017年 quentin. All rights reserved.
+
+basepath=$(cd `dirname $0`; pwd)
+cd ${basepath}
+git pull
