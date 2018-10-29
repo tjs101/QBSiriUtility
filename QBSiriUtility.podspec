@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "", :tag => "#{s.version}" }
   s.source_files  = "QBSiriUtility/**/*.{h,m}"
 
-  s.framework  = "Speech"
+  s.framework  = ""
 
   s.requires_arc = true
 
