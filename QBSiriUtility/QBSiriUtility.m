@@ -46,6 +46,14 @@
     }
 }
 
+- (BOOL)enableSiri
+{
+    if (@available(iOS 12.0, *)) {
+        return YES;
+    }
+    return NO;
+}
+
 - (NSUserActivity *)donateActivity
 {
     NSUserActivity *userActivity = [[NSUserActivity alloc] initWithActivityType:self.siriConfig.activityType];

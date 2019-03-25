@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) QBSiriConfig  *siriConfig;/**<>*/
 
 - (void)showVoiceShortcutFromViewCtrl:(UIViewController *)viewCtrl;
+- (BOOL)enableSiri;
 
 @end
 

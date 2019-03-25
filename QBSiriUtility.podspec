@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QBSiriUtility"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "siri框架."
   s.description  = "siri框架."
 
