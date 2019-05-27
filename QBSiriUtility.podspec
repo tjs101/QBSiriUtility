@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "QBSiriUtility"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "siri框架."
   s.description  = "siri框架."
 
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "", :tag => "#{s.version}" }
   s.source_files  = "QBSiriUtility/**/*.{h,m}"
 
-  s.framework  = ""
+  #s.framework  = ""
 
   s.requires_arc = true
 
