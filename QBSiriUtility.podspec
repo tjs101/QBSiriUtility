@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
 
   s.author             = { "tjs101" => "tjs101@live.cn" }
-  s.platform     = :ios, "10.0"
-  s.ios.deployment_target = "10.0"
+  s.platform     = :ios, "9.0"
+  s.ios.deployment_target = "9.0"
   s.source       = { :git => "", :tag => "#{s.version}" }
   s.source_files  = "QBSiriUtility/**/*.{h,m}"
 
